@@ -1,11 +1,11 @@
 import { sidebarBtnType } from "../../types/types";
 
-const SidebarBtn = ({ Icon, Label }: sidebarBtnType) => {
+const SidebarBtn = ({ Icon, label }: sidebarBtnType) => {
   return (
-    <div>
+    <a>
       <Icon />
-      <Label />
-    </div>
+      {label}
+    </a>
   );
 };
 

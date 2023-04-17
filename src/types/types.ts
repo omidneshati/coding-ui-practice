@@ -1,3 +1,5 @@
 import { IconType } from "react-icons";
 
-export type sidebarBtnType = { Icon: IconType; Label: string };
+export type sidebarBtnType = { Icon: IconType; label: string };
+
+export type detailBoardInfoType = { [metric: string]: string }[];

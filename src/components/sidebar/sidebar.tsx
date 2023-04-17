@@ -7,20 +7,20 @@ import Logo from "./SidebarSections/Logo";
 import Profile from "./SidebarSections/Profile";
 import Tools from "./SidebarSections/Tools";
 
-const sidebar = () => {
+const Sidebar = () => {
   return (
-    <aside className="uppercase">
+    <aside className="capitalize">
       <Logo />
       <button className="">request</button>
       <Tools />
       <GeneralNav />
       <div>
-        <SidebarBtn Icon={FiToggleRight} Label="help" />
-        <SidebarBtn Icon={AiOutlineSetting} Label="settings" />
+        <SidebarBtn Icon={FiToggleRight} label="help" />
+        <SidebarBtn Icon={AiOutlineSetting} label="settings" />
       </div>
       <Profile />
     </aside>
   );
 };
 
-export default sidebar;
+export default Sidebar;

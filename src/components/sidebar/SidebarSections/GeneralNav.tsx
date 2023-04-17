@@ -8,7 +8,7 @@ const GeneralNav = () => {
       <ul>
         {GENERAL_NAV.map((item) => (
           <li>
-            <SidebarBtn key={item.Label} Icon={item.Icon} Label={item.Label} />
+            <SidebarBtn key={item.label} Icon={item.Icon} label={item.label} />
           </li>
         ))}
       </ul>
