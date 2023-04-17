@@ -2,8 +2,10 @@ const Profile = () => {
   return (
     <div>
       <img alt="profile image" />
-      <span title="full name"></span>
-      <span title="email"></span>
+      <div>
+        <span title="full name">Omid Neshati</span>
+        <span title="email">startomid2020@gmail.com</span>
+      </div>
     </div>
   );
 };
