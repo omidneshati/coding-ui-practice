@@ -8,8 +8,9 @@ import { BiWallet } from "react-icons/bi";
 import { IoMdNotificationsOutline } from "react-icons/io";
 import { ApexOptions } from "apexcharts";
 
+export const MARKET_NAV: sidebarBtnType = { Icon: FiHome, label: "market" };
+
 export const GENERAL_NAV: sidebarBtnType[] = [
-  { Icon: FiHome, label: "market" },
   { Icon: RxDashboard, label: "dashboard" },
   { Icon: FiMonitor, label: "analytics" },
   { Icon: BsBookmarkDash, label: "news" },

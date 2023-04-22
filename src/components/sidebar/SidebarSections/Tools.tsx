@@ -3,11 +3,9 @@ import SidebarBtn from "../SidebarBtn";
 
 const Tools = () => {
   return (
-    <ul>
+    <ul className="flex flex-col">
       {TOOLS.map((item) => (
-        <li>
-          <SidebarBtn key={item.label} Icon={item.Icon} label={item.label} />
-        </li>
+        <SidebarBtn key={item.label} Icon={item.Icon} label={item.label} />
       ))}
     </ul>
   );
