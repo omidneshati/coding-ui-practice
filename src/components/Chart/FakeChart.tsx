@@ -43,7 +43,7 @@ export default function ApexChart() {
         options={CHART_OPTIONS}
         series={CHART_SERIES}
         type="candlestick"
-        // height={4}
+        height={400}
       />
     </div>
   );
