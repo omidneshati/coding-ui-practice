@@ -41,12 +41,33 @@ export const DETAIL_BOARD_INFO: detailBoardInfoType = [
 ];
 
 export const HEADER_NAV = [
-  "interactive chart",
-  "market data",
+  "chart",
+  "market",
   "historical",
   "performance",
   "news",
 ];
+
+export const CHART_OPTIONS: ApexOptions = {
+  chart: {
+    type: "candlestick",
+    height: 350,
+  },
+  title: {
+    text: "CandleStick Chart",
+    align: "left",
+  },
+  xaxis: {
+    type: "datetime",
+  },
+  yaxis: {
+    tooltip: {
+      enabled: true,
+    },
+  },
+};
+
+export const TIME_FRAMES: string[] = ["1h", "1d", "30d", "1y", "5y", "max"];
 
 export const CHART_SERIES = [
   {
@@ -294,22 +315,3 @@ export const CHART_SERIES = [
     ],
   },
 ];
-
-export const CHART_OPTIONS: ApexOptions = {
-  chart: {
-    type: "candlestick",
-    height: 350,
-  },
-  title: {
-    text: "CandleStick Chart",
-    align: "left",
-  },
-  xaxis: {
-    type: "datetime",
-  },
-  yaxis: {
-    tooltip: {
-      enabled: true,
-    },
-  },
-};
