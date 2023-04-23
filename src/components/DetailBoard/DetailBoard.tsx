@@ -6,7 +6,7 @@ function DetailBoard() {
       <label className="block mb-4 text-xl font-semibold">Details</label>
       <ul className="flex flex-col gap-3 text-xs font-semibold ">
         {DETAIL_BOARD_INFO.map((item) => (
-          <div className="flex justify-between">
+          <div className="flex justify-between" key={Object.keys(item)[0]}>
             <span className="text-[#777]">{Object.keys(item)[0]}</span>
             <span>{Object.values(item)[0]}</span>
           </div>

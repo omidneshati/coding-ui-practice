@@ -5,7 +5,7 @@ const Header = () => {
     <header className="flex items-center justify-between">
       <nav className="flex gap-[14px] text-[#444444] capitalize">
         {HEADER_NAV.map((item) => (
-          <a className="p-1" href="#">
+          <a className="p-1" href="#" key={item}>
             {item}
           </a>
         ))}
