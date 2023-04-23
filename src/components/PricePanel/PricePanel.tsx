@@ -14,7 +14,7 @@ const PricePanel = () => {
           <span className="text-[#2CB631]">+0.49 (+0.37%)</span>
         </div>
       </div>
-      <img src="small-chart.svg" className="" />
+      <img src="small-chart.png" className="" />
     </div>
   );
 };
