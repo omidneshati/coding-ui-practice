@@ -2,7 +2,7 @@
 
 This is a single page website created as a practice project to convert a UI/UX design into a working website using only HTML and CSS, ReactJS, JSX, and Vite. The website features a modern design with a fixed layout that is not responsive. It includes a navigation menu that scrolls smoothly to different sections of the page and interactive hover effects on buttons and links.
 
-The website is a stock broker dashboard with a clean and modern design. The UI/UX design was created by me and can be viewed on [Figma](https://www.figma.com/file/IOS6KcVjnmhIHGbMXy6JGZ/broker?node-id=2-2). The live website can be viewed at https://omidneshati-coding-ui.netlify.app/.
+The website is a stock broker dashboard with a clean and modern design. The UI/UX design was created by me and can be viewed on [Figma](https://www.figma.com/file/IOS6KcVjnmhIHGbMXy6JGZ/broker?node-id=2-2). The live website can be viewed at [Netlify](https://omidneshati-coding-ui.netlify.app).
 
 Please note that the buttons on the website do not currently work as other pages have not been created. This project is solely intended as a practice exercise to convert a UI/UX design to code.
 
