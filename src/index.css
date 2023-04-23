@@ -1,3 +1,53 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.app {
+  padding-inline: 73px;
+  padding-block: 25px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 0.3fr 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "header header header header header"
+    "comp-name comp-name comp-name comp-name comp-name "
+    "price price pre-price pre-price pre-price"
+    "charts charts charts details details"
+    "charts charts charts details details"
+    "charts charts charts order order";
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+.header {
+  grid-area: header;
+}
+
+.comp-name {
+  grid-area: comp-name;
+}
+
+.price {
+  grid-area: price;
+}
+
+.pre-price {
+  grid-area: pre-price;
+}
+
+.charts {
+  grid-area: charts;
+}
+
+.details {
+  grid-area: details;
+}
+
+.order {
+  grid-area: order;
+}
